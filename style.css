@@ -259,3 +259,240 @@
         font-size: 24px;
     }
 }
+
+
+/* =========================
+   Mobile Hero - Horizontal Slider
+========================= */
+
+@media (max-width: 900px) {
+    .hero-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 24px;
+        padding-top: 34px;
+        padding-bottom: 40px;
+    }
+
+    .hero-copy {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        gap: 0;
+    }
+
+    .hero-copy .eyebrow,
+    .hero-copy h1,
+    .hero-copy .hero-description,
+    .hero-copy .hero-actions {
+        order: initial;
+    }
+
+    .hero-copy .eyebrow {
+        margin-bottom: 8px;
+        font-size: 9px;
+        letter-spacing: 2.4px;
+    }
+
+    .hero-copy h1 {
+        font-size: clamp(38px, 10vw, 52px);
+        line-height: 1;
+        letter-spacing: -1px;
+        margin-bottom: 14px;
+    }
+
+    .hero-description {
+        max-width: 520px;
+        font-size: 13px;
+        margin: 0 0 22px;
+    }
+
+    .hero-slider {
+        width: 100%;
+    }
+
+    .slider-frame {
+        border: 2px solid var(--red);
+        padding: 8px;
+    }
+
+    .slider-frame > img {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        object-position: 50% 35%;
+    }
+
+    .slider-overlay {
+        left: 8px;
+        right: 8px;
+        bottom: 8px;
+        padding: 35px 16px 14px;
+    }
+
+    .slider-overlay h2 {
+        font-size: clamp(20px, 5.5vw, 28px);
+        margin: 5px 0 2px;
+    }
+
+    .slider-overlay p {
+        font-size: 8px;
+        letter-spacing: 1.7px;
+    }
+
+    /* Put arrows and dots inside the photo frame */
+    .slider-controls {
+        position: absolute;
+        left: 8px;
+        right: 8px;
+        bottom: 18px;
+        z-index: 5;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        margin: 0;
+        pointer-events: none;
+    }
+
+    .slider-controls button {
+        pointer-events: auto;
+        width: 42px;
+        height: 42px;
+        min-width: 42px;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        border-radius: 50%;
+        background: rgba(180, 45, 35, 0.62);
+        color: #fff;
+        font-size: 21px;
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        backdrop-filter: blur(3px);
+        transition: background 0.2s, transform 0.2s;
+    }
+
+    .slider-controls button:hover {
+        background: rgba(180, 45, 35, 0.88);
+        transform: scale(1.04);
+    }
+
+    .slider-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        pointer-events: auto;
+        padding: 5px 8px;
+        border-radius: 20px;
+        background: rgba(48, 33, 27, 0.25);
+    }
+
+    .slider-dots button {
+        width: 6px;
+        height: 6px;
+        min-width: 6px;
+        min-height: 6px;
+        padding: 0;
+        border: 0;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.58);
+        opacity: 1;
+    }
+
+    .slider-dots button.active {
+        width: 7px;
+        height: 7px;
+        min-width: 7px;
+        min-height: 7px;
+        background: #fff;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 560px) {
+    .hero-grid {
+        gap: 20px;
+        padding-top: 28px;
+        padding-bottom: 32px;
+    }
+
+    .hero-copy .eyebrow {
+        font-size: 8px;
+        letter-spacing: 2px;
+        margin-bottom: 7px;
+    }
+
+    .hero-copy h1 {
+        font-size: clamp(32px, 9.5vw, 44px);
+        line-height: 1.02;
+        margin-bottom: 11px;
+    }
+
+    .hero-description {
+        font-size: 12px;
+        line-height: 1.5;
+        margin-bottom: 17px;
+    }
+
+    .hero-actions {
+        gap: 14px;
+    }
+
+    .slider-frame {
+        padding: 6px;
+    }
+
+    .slider-frame > img {
+        aspect-ratio: 16 / 9;
+        object-position: 50% 35%;
+    }
+
+    .slider-overlay {
+        left: 6px;
+        right: 6px;
+        bottom: 6px;
+        padding: 30px 13px 12px;
+    }
+
+    .slider-overlay h2 {
+        font-size: 19px;
+    }
+
+    .slider-overlay p {
+        font-size: 7px;
+    }
+
+    .slider-controls {
+        left: 6px;
+        right: 6px;
+        bottom: 12px;
+    }
+
+    .slider-controls button {
+        width: 38px;
+        height: 38px;
+        min-width: 38px;
+        font-size: 19px;
+    }
+
+    .slider-dots {
+        gap: 4px;
+        padding: 4px 7px;
+    }
+
+    .slider-dots button {
+        width: 5px;
+        height: 5px;
+        min-width: 5px;
+        min-height: 5px;
+    }
+
+    .slider-dots button.active {
+        width: 6px;
+        height: 6px;
+        min-width: 6px;
+        min-height: 6px;
+    }
+}
