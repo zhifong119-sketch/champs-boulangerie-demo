@@ -187,9 +187,10 @@ em {
 .nav-links {
     display: flex;
 
-    gap: 27px;
+    gap: 25px;
 
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .nav-links a:hover,
@@ -202,7 +203,6 @@ em {
    BUTTONS
 ======================================== */
 
-.nav-cta,
 .button {
     display: inline-flex;
 
@@ -222,15 +222,6 @@ em {
     transition: .25s;
 }
 
-.nav-cta {
-    border: 1px solid var(--red);
-    color: var(--red);
-}
-
-.nav-cta:hover {
-    background: var(--red);
-    color: #fff;
-}
 
 .menu-button {
     display: none;
@@ -1360,6 +1351,7 @@ em {
 
     .hero-slider {
         width: 100%;
+        position: relative;
     }
 
 
@@ -1403,38 +1395,38 @@ em {
     }
 
 
-    /* ====================================
-       MOBILE ARROWS + DOTS
-       THESE ARE INSIDE PHOTO
-    ==================================== */
+/* ====================================
+   MOBILE ARROWS + DOTS
+   ==================================== */
 
-    .slider-controls {
-        position: absolute;
+.slider-controls {
 
-        left: 8px;
-        right: 8px;
+    position: relative;
 
-        /*
-           CHANGE THIS VALUE
-           TO MOVE ARROWS + DOTS UP/DOWN
-        */
+    z-index: 5;
 
-        bottom: 525px;
+    display: flex;
 
-        z-index: 5;
+    align-items: center;
 
-        display: flex;
+    justify-content: space-between;
 
-        align-items: center;
+    gap: 10px;
 
-        justify-content: space-between;
+    /*
+       Pull the controls upward
+       so they appear inside the photo.
+    */
+    margin-top: -58px;
 
-        gap: 10px;
+    margin-left: 8px;
 
-        margin: 0;
+    margin-right: 8px;
 
-        pointer-events: none;
-    }
+    margin-bottom: 16px;
+
+    pointer-events: none;
+}
 
 
     /* Mobile Arrow Buttons */
@@ -1652,5 +1644,129 @@ em {
 
         min-width: 6px;
         min-height: 6px;
+    }
+}
+
+/* ========================================
+   CONTACT SECTION
+======================================== */
+
+.contact-inner {
+    display: grid;
+    grid-template-columns: 1.05fr .95fr;
+    align-items: center;
+    gap: 70px;
+}
+
+.contact-description {
+    max-width: 500px;
+    margin-top: 24px;
+    color: rgba(255,255,255,.76);
+    font-size: 14px;
+}
+
+.contact-options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-social {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px 20px;
+    background: rgba(255,255,255,.1);
+    border: 1px solid rgba(255,255,255,.28);
+    color: #fff;
+    transition: .25s ease;
+}
+
+.contact-social:hover {
+    background: #fff;
+    color: var(--red);
+    transform: translateX(5px);
+}
+
+.contact-social-icon {
+    width: 42px;
+    height: 42px;
+    flex: 0 0 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.contact-social-icon svg {
+    display: block;
+    width: 42px;
+    height: 42px;
+}
+
+.messenger-icon,
+.instagram-icon {
+    border: 0;
+}
+
+.contact-social-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+}
+
+.contact-social-text strong {
+    font-size: 14px;
+    letter-spacing: .3px;
+}
+
+.contact-social-text small {
+    font-size: 11px;
+    opacity: .72;
+}
+
+.contact-arrow {
+    font-size: 20px;
+}
+
+.contact-email {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 16px 20px;
+    color: #f6e8d8;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    font-size: 11px;
+}
+
+.contact-email strong {
+    font-size: 12px;
+}
+
+.contact-email:hover {
+    color: #fff;
+}
+
+@media (max-width: 900px) {
+    .nav-links {
+        display: none;
+    }
+
+    .contact-inner {
+        grid-template-columns: 1fr;
+        gap: 38px;
+    }
+
+    .contact-description {
+        font-size: 13px;
+    }
+
+    .contact-email {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
     }
 }
