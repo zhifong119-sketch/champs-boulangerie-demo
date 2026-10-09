@@ -2130,3 +2130,18 @@ em {
   .menu-category-info p { font-size: 10px; line-height: 1.4; margin-bottom: 9px; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
   .menu-category-info strong { font-size: 9px; letter-spacing: .8px; margin-top: auto; }
 }
+
+/* Visit section: Google Maps directions button */
+.champs-directions-link {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: fit-content; max-width: 100%; margin: 6px 0 20px;
+  padding: 10px 17px; background: #b42d23; color: #fffaf4;
+  border: 1px solid #b42d23; border-radius: 999px;
+  font-size: 11px; font-weight: 700; letter-spacing: .09em;
+  text-transform: uppercase; text-decoration: none;
+  transition: background .2s ease, border-color .2s ease;
+}
+.champs-directions-link:hover, .champs-directions-link:focus-visible {
+  background: #7f201a; border-color: #7f201a; color: white;
+}
+
