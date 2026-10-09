@@ -2145,3 +2145,37 @@ em {
   background: #7f201a; border-color: #7f201a; color: white;
 }
 
+/* Responsive repair: prevent desktop two-column sections overflowing phones */
+@media (max-width: 900px) {
+  .brand-grid, .careers-grid, .visit-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 30px;
+  }
+  .brand-grid > *, .careers-grid > *, .visit-grid > * { min-width: 0; max-width: 100%; }
+  .brand-photo, .poster-frame, .visit-card { width: 100%; min-width: 0; }
+  .brand-photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+  .poster-frame img { width: 100%; max-height: none; height: auto; object-fit: contain; }
+  .visit-line strong, .visit-line a { overflow-wrap: anywhere; word-break: normal; }
+  .nav { min-width: 0; }
+  .nav .brand { min-width: 0; flex: 0 1 auto; }
+  .nav .brand span { min-width: 0; }
+  .nav .brand strong { font-size: clamp(21px, 5.8vw, 26px); }
+  .nav .brand img { flex-shrink: 0; }
+  .nav .menu-button { margin-left: auto; }
+}
+@media (max-width: 560px) {
+  .brand-section { padding: 55px 0; }
+  .brand-grid { gap: 24px; }
+  .brand-photo { padding: 8px; }
+  .brand-photo img { aspect-ratio: 4 / 3; }
+  .brand-copy h2, .careers-copy h2, .visit-grid h2 { font-size: clamp(38px, 10vw, 50px); }
+  .brand-copy p:not(.eyebrow) { margin: 18px 0; }
+  .careers.section, .visit.section { padding: 60px 0; }
+  .careers-grid, .visit-grid { gap: 26px; }
+  .poster-frame { padding: 8px; }
+  .visit-card { padding: 22px 18px; }
+  .visit-line { padding: 15px 0; }
+  .visit-line strong, .visit-line a { font-size: 14px; line-height: 1.5; }
+  .champs-directions-link { font-size: 10px; padding: 10px 14px; }
+  .footer-inner { flex-wrap: wrap; }
+}
