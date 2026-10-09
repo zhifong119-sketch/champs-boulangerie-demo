@@ -1364,11 +1364,13 @@ em {
     }
 
     .slider-frame > img {
-        aspect-ratio: 16 / 9;
+        aspect-ratio: 1 / 1;
 
         object-fit: cover;
 
         object-position: 50% 35%;
+
+        transform: scale(1);
     }
 
 
@@ -1409,7 +1411,7 @@ em {
 
     align-items: center;
 
-    justify-content: space-between;
+    justify-content: center;
 
     gap: 10px;
 
@@ -1417,11 +1419,11 @@ em {
        Pull the controls upward
        so they appear inside the photo.
     */
-    margin-top: -58px;
+    margin-top: 8px;
 
-    margin-left: 8px;
+    margin-left: 0px;
 
-    margin-right: 8px;
+    margin-right: 0px;
 
     margin-bottom: 16px;
 
@@ -1434,10 +1436,10 @@ em {
     .slider-controls button {
         pointer-events: auto;
 
-        width: 42px;
-        height: 42px;
+        width: 32px;
+        height: 32px;
 
-        min-width: 42px;
+        min-width: 32px;
 
         border: 1px solid rgba(255, 255, 255, 0.8);
 
@@ -1447,7 +1449,7 @@ em {
 
         color: #fff;
 
-        font-size: 21px;
+        font-size: 16px;
 
         line-height: 1;
 
@@ -1574,7 +1576,7 @@ em {
     }
 
     .slider-frame > img {
-        aspect-ratio: 16 / 9;
+        aspect-ratio: 1 / 1;
 
         object-position: 50% 35%;
     }
@@ -1604,24 +1606,21 @@ em {
     ==================================== */
 
     .slider-controls {
-        left: 6px;
-        right: 6px;
+        left: auto;
+        right: auto;
 
-        /*
-           THIS IS THE VALUE TO CHANGE
-           FOR YOUR PHONE SCREEN
-        */
-
-        bottom: 12px;
+        /* Lower the arrows and dots so they don't cover the product name. */
+        bottom: auto;
+        margin-top: 8px;
     }
 
     .slider-controls button {
-        width: 38px;
-        height: 38px;
+        width: 32px;
+        height: 32px;
 
-        min-width: 38px;
+        min-width: 32px;
 
-        font-size: 19px;
+        font-size: 16px;
     }
 
     .slider-dots {
@@ -1769,4 +1768,365 @@ em {
         align-items: flex-start;
         gap: 5px;
     }
+}
+
+
+/* ========================================
+   WHOLE CAKE PRODUCT GRID
+======================================== */
+
+.whole-cake-prices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+    margin: 12px 0 10px;
+}
+
+.whole-cake-prices span {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.whole-cake-prices small {
+    color: var(--muted);
+    font-size: 10px;
+    letter-spacing: .4px;
+}
+
+.whole-cake-prices strong {
+    color: var(--red);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.whole-cake-card .menu-product-image {
+    background: #fff;
+}
+
+.product-image-button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: zoom-in;
+}
+
+.whole-cake-card .product-image-button img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    transition: transform .25s ease;
+}
+
+.product-image-button:hover img {
+    transform: scale(1.025);
+}
+
+.whole-cake-card .menu-product-info {
+    padding: 18px 18px 20px;
+}
+
+.whole-cake-card .menu-product-info h3 {
+    font-size: 18px;
+    line-height: 1.25;
+}
+
+.whole-cake-card .menu-product-info p {
+    min-height: 0;
+    margin-bottom: 10px;
+}
+
+/* Full-size image viewer */
+.product-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 28px;
+    background: rgba(25, 18, 15, .92);
+}
+
+.product-lightbox.is-open {
+    display: flex;
+}
+
+.product-lightbox img {
+    display: block;
+    max-width: min(92vw, 1000px);
+    max-height: 82vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    background: #fff;
+}
+
+.product-lightbox p {
+    margin: 12px 0 0;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.product-lightbox-close {
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(255,255,255,.65);
+    border-radius: 50%;
+    background: rgba(255,255,255,.12);
+    color: #fff;
+    font-size: 32px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+@media (max-width: 560px) {
+    /* Three compact cards per row on mobile, similar to desktop */
+    .menu-page-section {
+        padding: 38px 0;
+    }
+
+    .menu-page-header {
+        padding: 42px 0;
+    }
+
+    .menu-section-title {
+        gap: 10px;
+        margin-bottom: 22px;
+    }
+
+    .menu-section-title h2 {
+        font-size: 34px;
+    }
+
+    .menu-section-title p {
+        font-size: 11px;
+        line-height: 1.45;
+        margin: 0;
+    }
+
+    .menu-product-grid,
+    .whole-cake-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px 8px;
+    }
+
+    .menu-product-card {
+        min-width: 0;
+    }
+
+    .menu-product-image img,
+    .whole-cake-card .product-image-button img {
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+    }
+
+    .whole-cake-card .product-image-button img {
+        object-fit: contain;
+    }
+
+    .menu-product-info,
+    .whole-cake-card .menu-product-info {
+        padding: 8px 7px 9px;
+    }
+
+    .menu-product-info h3,
+    .whole-cake-card .menu-product-info h3 {
+        font-size: 10px;
+        line-height: 1.25;
+        margin-bottom: 5px;
+        overflow-wrap: anywhere;
+    }
+
+    /* Keep a short product description visible: no more than two lines */
+    .menu-product-info p,
+    .whole-cake-card .menu-product-info p {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        font-size: 9px;
+        line-height: 1.35;
+        min-height: calc(2 * 1.35em);
+        margin: 0 0 6px;
+        overflow-wrap: anywhere;
+    }
+
+    .whole-cake-details-button {
+        margin-top: 5px;
+        padding: 4px 0 0;
+        border: 0;
+        border-top: 1px solid rgba(104, 73, 54, .2);
+        background: transparent;
+        color: var(--red);
+        font: 600 8px/1.3 "DM Sans", sans-serif;
+        text-align: left;
+        cursor: pointer;
+    }
+
+    .menu-product-bottom {
+        gap: 4px;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .menu-product-price {
+        font-size: 12px;
+    }
+
+    .menu-product-tag {
+        font-size: 7px;
+        letter-spacing: .7px;
+    }
+
+    .whole-cake-prices {
+        gap: 5px 7px;
+        margin: 6px 0;
+    }
+
+    .whole-cake-prices small {
+        font-size: 8px;
+    }
+
+    .whole-cake-prices strong {
+        font-size: 9px;
+        line-height: 1.2;
+    }
+
+    .product-lightbox {
+        padding: 14px;
+    }
+
+    .product-lightbox img {
+        max-width: 94vw;
+        max-height: 80vh;
+    }
+}
+
+
+/* Whole cake full details modal */
+.whole-cake-details-button {
+    border: 0;
+    background: transparent;
+    padding: 8px 0 0;
+    color: var(--red);
+    font: 600 11px/1.4 "DM Sans", sans-serif;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    cursor: pointer;
+}
+.whole-cake-details-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 9998;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(25, 18, 15, .72);
+}
+.whole-cake-details-modal.is-open { display: flex; }
+.whole-cake-details-panel {
+    position: relative;
+    width: min(100%, 520px);
+    max-height: 85vh;
+    overflow: auto;
+    padding: 28px;
+    background: var(--cream);
+    border: 1px solid rgba(255,255,255,.5);
+}
+.whole-cake-details-panel h2 { margin: 0 0 12px; font-size: clamp(24px, 5vw, 34px); }
+.whole-cake-details-panel > p:not(.eyebrow) { color: var(--muted); line-height: 1.65; }
+.whole-cake-details-prices { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+.whole-cake-details-prices span { display: flex; flex-direction: column; gap: 4px; padding: 12px 16px; background: #fff; border: 1px solid var(--line); }
+.whole-cake-details-prices small { color: var(--muted); }
+.whole-cake-details-prices strong { color: var(--red); font-family: "Playfair Display", serif; font-size: 19px; }
+.whole-cake-details-close {
+    position: absolute; top: 8px; right: 10px; width: 38px; height: 38px;
+    border: 1px solid rgba(104,73,54,.3); border-radius: 50%; background: #fff;
+    color: var(--wood-dark); font-size: 27px; cursor: pointer; z-index: 1;
+}
+@media (max-width: 560px) {
+    .whole-cake-details-panel { padding: 24px 18px; }
+    .whole-cake-details-button { font-size: 8px; }
+}
+
+/* Contact popup: shared by home and products pages */
+.champs-contact-trigger {cursor:pointer;font:inherit;}
+.champs-nav-contact {border:0;background:transparent;color:inherit;padding:0;text-align:left;}
+.champs-contact-open {overflow:hidden;}
+.champs-contact-modal {position:fixed;inset:0;z-index:99999;background:rgba(32,22,17,.58);display:none;align-items:center;justify-content:center;padding:20px;}
+.champs-contact-modal.is-open {display:flex;}
+.champs-contact-panel {position:relative;width:min(100%,440px);background:#faf5ed;border:1px solid #e8d6c7;border-radius:18px;padding:32px 24px 26px;box-shadow:0 20px 65px rgba(32,22,17,.22);color:#382a24;}
+.champs-contact-panel h2 {font-family:'Playfair Display',Georgia,serif;font-size:clamp(27px,6vw,36px);margin:10px 0;}
+.champs-contact-intro {font-size:14px;line-height:1.6;margin:0 0 22px;color:#75665c;}
+.champs-contact-close {position:absolute;right:14px;top:10px;border:0;background:transparent;font-size:32px;line-height:1;color:#6d5146;cursor:pointer;padding:5px 10px;}
+.champs-contact-choice {display:flex;align-items:center;gap:13px;padding:14px 12px;border:1px solid #e5d4c5;border-radius:11px;text-decoration:none;color:#382a24;background:#fffdf9;margin-top:11px;transition:border-color .2s,transform .2s;}
+.champs-contact-choice:hover,.champs-contact-choice:focus-visible {border-color:#b42d23;transform:translateY(-1px);}
+.champs-contact-choice > span:nth-child(2) {flex:1;min-width:0;}
+.champs-contact-choice strong,.champs-contact-choice small {display:block;}
+.champs-contact-choice strong {font-size:14px;}
+.champs-contact-choice small {font-size:11px;color:#786c63;margin-top:3px;}
+.champs-contact-symbol {width:37px;height:37px;display:grid;place-items:center;flex-shrink:0;border-radius:10px;color:white;font-weight:700;font-family:Arial,sans-serif;font-size:25px;}
+.champs-fb {background:#1877f2;}
+.champs-ig {background:linear-gradient(35deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);}
+@media(max-width:480px){.champs-contact-panel{padding:28px 18px 22px;}.champs-contact-choice{padding:12px 9px;}}
+
+/* Mobile navigation: keep the hamburger visible on narrow screens */
+@media (max-width: 900px) {
+  .nav { height: 78px; }
+  .nav-links { display: none !important; }
+  .menu-button { display: inline-flex !important; align-items: center; justify-content: center; margin-left: auto; min-width: 44px; min-height: 44px; cursor: pointer; flex-shrink: 0; }
+  .mobile-nav { display: none; position: absolute; top: 100%; left: 0; right: 0; z-index: 1002; padding: 12px max(20px, calc((100vw - 1100px) / 2)) 18px; background: #f8f1e7; border-bottom: 1px solid rgba(180,45,35,.22); box-shadow: 0 12px 24px rgba(0,0,0,.08); }
+  .mobile-nav.active { display: flex !important; flex-direction: column; gap: 0; }
+  .mobile-nav a, .mobile-nav .champs-nav-contact { display: block; width: 100%; padding: 13px 4px; color: #352920; font: 600 14px 'DM Sans',sans-serif; text-decoration: none; border: 0; background: transparent; text-align: left; cursor: pointer; }
+  .mobile-nav a + a, .mobile-nav .champs-nav-contact { border-top: 1px solid rgba(90,60,40,.1); }
+  .mobile-nav a:hover, .mobile-nav .champs-nav-contact:hover { color: #b42d23; }
+}
+@media (min-width: 901px) { .menu-button, .mobile-nav { display: none !important; } }
+
+/* Champs branded Contact CTA: header only */
+.header .nav > .champs-contact-trigger {
+  appearance:none;display:inline-flex;align-items:center;justify-content:center;
+  white-space:nowrap;padding:10px 17px;border:1px solid #b42d23;
+  border-radius:999px;background:#b42d23;color:#fffaf4;
+  font-family:'DM Sans',sans-serif;font-size:11px;font-weight:700;
+  letter-spacing:.11em;line-height:1.2;text-transform:uppercase;
+  box-shadow:0 3px 9px rgba(127,32,26,.10);
+  transition:background .2s ease,box-shadow .2s ease,transform .2s ease;
+}
+.header .nav > .champs-contact-trigger:hover,
+.header .nav > .champs-contact-trigger:focus-visible {
+  background:#7f201a;border-color:#7f201a;
+  box-shadow:0 5px 13px rgba(127,32,26,.18);
+}
+.header .nav > .champs-contact-trigger:active {transform:translateY(1px)}
+@media(max-width:900px){
+ .header .nav > .champs-contact-trigger{padding:9px 13px;font-size:10px;letter-spacing:.07em;margin-left:auto}
+ .header .nav > .menu-button{margin-left:12px}
+}
+@media(max-width:360px){
+ .header .nav > .champs-contact-trigger{padding:8px 10px;font-size:9px}
+ .header .nav > .menu-button{margin-left:5px}
+}
+
+/* Compact editorial Our Menu cards on mobile homepage only */
+@media (max-width: 560px) {
+  .menu-category-grid { grid-template-columns: minmax(0, 1fr); gap: 13px; max-width: none; }
+  .menu-category-card { display: grid; grid-template-columns: minmax(0, 38%) minmax(0, 62%); align-items: stretch; min-height: 152px; border-top: 0; border-left: 3px solid var(--red); overflow: hidden; }
+  .menu-category-image { min-width: 0; height: 100%; }
+  .menu-category-image img { display: block; width: 100%; height: 100%; min-height: 152px; aspect-ratio: auto; object-fit: cover; }
+  .menu-category-info { min-width: 0; padding: 13px 13px 12px; display: flex; flex-direction: column; align-items: flex-start; }
+  .menu-category-info > span { margin-bottom: 5px; font-size: 8px; }
+  .menu-category-info h3 { font-size: clamp(17px, 4.6vw, 22px); line-height: 1.1; margin-bottom: 6px; }
+  .menu-category-info p { font-size: 10px; line-height: 1.4; margin-bottom: 9px; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+  .menu-category-info strong { font-size: 9px; letter-spacing: .8px; margin-top: auto; }
 }

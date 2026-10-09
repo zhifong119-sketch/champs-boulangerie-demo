@@ -15,31 +15,203 @@
 <div class="container nav">
 <a class="brand" href="index.html"><img src="images/champslogo.jpg" alt="Champs Logo"><span><strong>Champs</strong><small>BOULANGERIE BAKERY</small></span></a>
 <nav class="nav-links"><a href="index.html">Home</a><a href="products.html">Products</a><a href="index.html#about">About</a><a href="index.html#careers">Careers</a><a href="index.html#visit">Visit</a></nav>
-<a class="nav-cta" href="mailto:Champsplt@gmail.com?subject=Champs%20Bakery%20Enquiry">Contact</a>
+<button class="nav-cta champs-contact-trigger" type="button" aria-haspopup="dialog">Contact</button>
+<button class="menu-button" id="menuButton" type="button" aria-label="Open navigation" aria-controls="mobileNav" aria-expanded="false">☰</button>
 </div>
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="index.html#about">About</a>
+<a href="index.html#careers">Careers</a>
+<button class="champs-contact-trigger champs-nav-contact" type="button" aria-haspopup="dialog">Contact</button>
+<a href="index.html#visit">Visit</a>
+</nav>
 </header>
 <main class="menu-page">
 <section class="menu-page-header"><div class="container"><p class="eyebrow">CHAMPS MENU</p><h1>Something for<br><em>every occasion.</em></h1><p>Explore our selection of breads, slice cakes and whole cakes. Product availability may vary daily.</p></div></section>
 
 <section class="menu-page-section" id="bread"><div class="container"><div class="menu-section-title"><div><p class="eyebrow">01 · BAKED DAILY</p><h2>Bread</h2></div><p>Freshly baked breads and selected savoury and pastry favourites.</p></div><div class="menu-product-grid">
-<article class="menu-product-card"><div class="menu-product-image"><img src="images/wellness-bread.jpg" alt="Wellness Bread"></div><div class="menu-product-info"><h3>WELLNESS BREAD</h3><p>Rustic bread with a hearty texture and comforting flavour.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">BREAD</span></div></div></article>
-<article class="menu-product-card"><div class="menu-product-image"><img src="images/an-butter-croffle.jpg" alt="An Butter Croffle"></div><div class="menu-product-info"><h3>AN BUTTER CROFFLE</h3><p>Red bean paste, salted butter, azuki red bean and vanilla gelato.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">BREAD</span></div></div></article>
-<article class="menu-product-card"><div class="menu-product-image"><img src="images/berries-croffle.jpg" alt="Berries Croffle"></div><div class="menu-product-info"><h3>BERRIES CROFFLE</h3><p>Buttery croffle with berries, yoghurt gelato and crunchy nuts.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">BREAD</span></div></div></article>
-<article class="menu-product-card"><div class="menu-product-image"><img src="images/chicken-floss-croffle.jpg" alt="Chicken Floss Croffle"></div><div class="menu-product-info"><h3>CHICKEN FLOSS CROFFLE</h3><p>A savoury croffle with cheese, chicken floss, seaweed and sesame.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">BREAD</span></div></div></article>
-<article class="menu-product-card"><div class="menu-product-image"><img src="images/lemon-custard-danish.jpg" alt="Lemon Custard Danish"></div><div class="menu-product-info"><h3>LEMON CUSTARD DANISH</h3><p>Flaky laminated pastry with bright lemon custard and almonds.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">BREAD</span></div></div></article>
-<article class="menu-product-card"><div class="menu-product-image"><img src="images/matcha-red-bean-danish.jpg" alt="Matcha Red Bean Danish"></div><div class="menu-product-info"><h3>MATCHA RED BEAN DANISH</h3><p>Buttery pastry filled with matcha and sweet red bean.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">BREAD</span></div></div></article>
-<article class="menu-product-card"><div class="menu-product-image"><img src="images/energy-stick.jpg" alt="Energy Stick"></div><div class="menu-product-info"><h3>ENERGY STICK</h3><p>A golden, satisfying pastry for an easy everyday treat.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">BREAD</span></div></div></article>
+<article class="menu-product-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Wellness Bread"><img src="images/wellness-bread.jpg" alt="Wellness Bread"></button></div><div class="menu-product-info"><h3>WELLNESS BREAD</h3><p>Rustic bread with a hearty texture and comforting flavour.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">BREAD</span></div></div></article>
+<article class="menu-product-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of An Butter Croffle"><img src="images/an-butter-croffle.jpg" alt="An Butter Croffle"></button></div><div class="menu-product-info"><h3>AN BUTTER CROFFLE</h3><p>Red bean paste, salted butter, azuki red bean and vanilla gelato.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">BREAD</span></div></div></article>
+<article class="menu-product-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Berries Croffle"><img src="images/berries-croffle.jpg" alt="Berries Croffle"></button></div><div class="menu-product-info"><h3>BERRIES CROFFLE</h3><p>Buttery croffle with berries, yoghurt gelato and crunchy nuts.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">BREAD</span></div></div></article>
+<article class="menu-product-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Chicken Floss Croffle"><img src="images/chicken-floss-croffle.jpg" alt="Chicken Floss Croffle"></button></div><div class="menu-product-info"><h3>CHICKEN FLOSS CROFFLE</h3><p>A savoury croffle with cheese, chicken floss, seaweed and sesame.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">BREAD</span></div></div></article>
+<article class="menu-product-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Lemon Custard Danish"><img src="images/lemon-custard-danish.jpg" alt="Lemon Custard Danish"></button></div><div class="menu-product-info"><h3>LEMON CUSTARD DANISH</h3><p>Flaky laminated pastry with bright lemon custard and almonds.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">BREAD</span></div></div></article>
+<article class="menu-product-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Matcha Red Bean Danish"><img src="images/matcha-red-bean-danish.jpg" alt="Matcha Red Bean Danish"></button></div><div class="menu-product-info"><h3>MATCHA RED BEAN DANISH</h3><p>Buttery pastry filled with matcha and sweet red bean.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">BREAD</span></div></div></article>
+<article class="menu-product-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Energy Stick"><img src="images/energy-stick.jpg" alt="Energy Stick"></button></div><div class="menu-product-info"><h3>ENERGY STICK</h3><p>A golden, satisfying pastry for an easy everyday treat.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">BREAD</span></div></div></article>
 </div></div></section>
 
 <section class="menu-page-section" id="slice-cake"><div class="container"><div class="menu-section-title"><div><p class="eyebrow">02 · SWEET TREATS</p><h2>Slice Cake</h2></div><p>Delicate layers and individual portions made for a sweet moment.</p></div><div class="menu-product-grid">
-<article class="menu-product-card"><div class="menu-product-image"><img src="images/midnight-berries-mille-crepe.jpg" alt="Midnight Berries Mille Crepe"></div><div class="menu-product-info"><h3>MIDNIGHT BERRIES MILLE CREPE</h3><p>Delicate layers with a rich berry finish.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">SLICE CAKE</span></div></div></article>
-<article class="menu-product-card"><div class="menu-product-image"><img src="images/sea-salt-mille-crepe.jpg" alt="Sea Salt Mille Crepe"></div><div class="menu-product-info"><h3>SEA SALT MILLE CREPE</h3><p>Soft, layered crepes with a balanced sweet-salty character.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">SLICE CAKE</span></div></div></article>
-<article class="menu-product-card"><div class="menu-product-image"><img src="images/sunlight-pistachio-mille-crepe.jpg" alt="Sunlight Pistachio Mille Crepe"></div><div class="menu-product-info"><h3>SUNLIGHT PISTACHIO MILLE CREPE</h3><p>Light layers finished with pistachio crunch.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">SLICE CAKE</span></div></div></article>
-<article class="menu-product-card"><div class="menu-product-image"><img src="images/tiramisu.jpg" alt="Tiramisu"></div><div class="menu-product-info"><h3>TIRAMISU</h3><p>Creamy coffee dessert with a rich cocoa finish.</p><div class="menu-product-bottom"><span class="menu-product-price">RM XX.XX</span><span class="menu-product-tag">SLICE CAKE</span></div></div></article>
+<article class="menu-product-card slice-cake-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Pink Treasure"><img src="images/slice-pink-treasure.jpeg" alt="Pink Treasure" loading="lazy"></button></div><div class="menu-product-info"><h3>PINK TREASURE</h3><p>Raspberry, Lychee (Include Almond)</p><div class="menu-product-bottom"><span class="menu-product-price">RM 19.90</span><span class="menu-product-tag">SLICE CAKE</span></div></div></article>
+<article class="menu-product-card slice-cake-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Mandarin Treasure"><img src="images/slice-mandarin-treasure.jpeg" alt="Mandarin Treasure" loading="lazy"></button></div><div class="menu-product-info"><h3>MANDARIN TREASURE</h3><p>Mandarin Orange, Yogurt, Biscuit Base</p><div class="menu-product-bottom"><span class="menu-product-price">RM 19.90</span><span class="menu-product-tag">SLICE CAKE</span></div></div></article>
+<article class="menu-product-card slice-cake-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Sunlight Pistachio Mille Crepe"><img src="images/slice-sunlight-pistachio-mille-crepe.png" alt="Sunlight Pistachio Mille Crepe" loading="lazy"></button></div><div class="menu-product-info"><h3>SUNLIGHT PISTACHIO MILLE CREPE</h3><p>Pistachio, Chocolate, Orange, Nutty</p><div class="menu-product-bottom"><span class="menu-product-price">RM 23.90</span><span class="menu-product-tag">SLICE CAKE</span></div></div></article>
+<article class="menu-product-card slice-cake-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Midnight Berries Mille Crepe"><img src="images/slice-midnight-berries-mille-crepe.png" alt="Midnight Berries Mille Crepe" loading="lazy"></button></div><div class="menu-product-info"><h3>MIDNIGHT BERRIES MILLE CREPE</h3><p>Sesame, Raspberry, Nutty</p><div class="menu-product-bottom"><span class="menu-product-price">RM 18.90</span><span class="menu-product-tag">SLICE CAKE</span></div></div></article>
+<article class="menu-product-card slice-cake-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Pistachio Coco Mille Crepe"><img src="images/slice-pistachio-coco-mille-crepe.jpeg" alt="Pistachio Coco Mille Crepe" loading="lazy"></button></div><div class="menu-product-info"><h3>PISTACHIO COCO MILLE CREPE</h3><p>64% Chocolate Feuilletine Base (Include Pistachio Nut)</p><div class="menu-product-bottom"><span class="menu-product-price">RM 23.90</span><span class="menu-product-tag">SLICE CAKE</span></div></div></article>
+<article class="menu-product-card slice-cake-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Sea Salt Mille Crepe"><img src="images/slice-sea-salt-mille-crepe.jpeg" alt="Sea Salt Mille Crepe" loading="lazy"></button></div><div class="menu-product-info"><h3>SEA SALT MILLE CREPE</h3><p>Butterfly Blue Pea, Sea Salt</p><div class="menu-product-bottom"><span class="menu-product-price">RM 18.90</span><span class="menu-product-tag">SLICE CAKE</span></div></div></article>
+<article class="menu-product-card slice-cake-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Chocolate Mille Crepe"><img src="images/slice-chocolate-mille-crepe.jpeg" alt="Chocolate Mille Crepe" loading="lazy"></button></div><div class="menu-product-info"><h3>CHOCOLATE MILLE CREPE</h3><p>58% Dark Chocolate (Include Almond)</p><div class="menu-product-bottom"><span class="menu-product-price">RM 18.90</span><span class="menu-product-tag">SLICE CAKE</span></div></div></article>
+<article class="menu-product-card slice-cake-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Yuri Matcha Mille Crepe"><img src="images/slice-yuri-matcha-mille-crepe.jpeg" alt="Yuri Matcha Mille Crepe" loading="lazy"></button></div><div class="menu-product-info"><h3>YURI MATCHA MILLE CREPE</h3><p>Niko Neko Matcha</p><div class="menu-product-bottom"><span class="menu-product-price">RM 18.90</span><span class="menu-product-tag">SLICE CAKE</span></div></div></article>
+<article class="menu-product-card slice-cake-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Houjicha Mille Crepe"><img src="images/slice-houjicha-mille-crepe.jpeg" alt="Houjicha Mille Crepe" loading="lazy"></button></div><div class="menu-product-info"><h3>HOUJICHA MILLE CREPE</h3><p>Niko Neko Houjicha</p><div class="menu-product-bottom"><span class="menu-product-price">RM 18.90</span><span class="menu-product-tag">SLICE CAKE</span></div></div></article>
+<article class="menu-product-card slice-cake-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Osmanthus Genmaicha Mille Crepe"><img src="images/slice-osmanthus-genmaicha-mille-crepe.jpeg" alt="Osmanthus Genmaicha Mille Crepe" loading="lazy"></button></div><div class="menu-product-info"><h3>OSMANTHUS GENMAICHA MILLE CREPE</h3><p>Niko Neko Genmaicha</p><div class="menu-product-bottom"><span class="menu-product-price">RM 18.90</span><span class="menu-product-tag">SLICE CAKE</span></div></div></article>
+<article class="menu-product-card slice-cake-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Earl Grey Lemon Mille Crepe"><img src="images/slice-earl-grey-lemon-mille-crepe.jpeg" alt="Earl Grey Lemon Mille Crepe" loading="lazy"></button></div><div class="menu-product-info"><h3>EARL GREY LEMON MILLE CREPE</h3><p>Earl Grey with Lemon Ganache</p><div class="menu-product-bottom"><span class="menu-product-price">RM 18.90</span><span class="menu-product-tag">SLICE CAKE</span></div></div></article>
+<article class="menu-product-card slice-cake-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Original Mille Crepe"><img src="images/slice-original-mille-crepe.jpeg" alt="Original Mille Crepe" loading="lazy"></button></div><div class="menu-product-info"><h3>ORIGINAL MILLE CREPE</h3><p>Description not provided.</p><div class="menu-product-bottom"><span class="menu-product-price">RM 18.90</span><span class="menu-product-tag">SLICE CAKE</span></div></div></article>
+<article class="menu-product-card slice-cake-card"><div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Tiramisu"><img src="images/slice-tiramisu.jpeg" alt="Tiramisu" loading="lazy"></button></div><div class="menu-product-info"><h3>TIRAMISU</h3><p>Include Rum (Alcohol)</p><div class="menu-product-bottom"><span class="menu-product-price">RM 19.90</span><span class="menu-product-tag">SLICE CAKE</span></div></div></article>
 </div></div></section>
-
-<section class="menu-page-section" id="whole-cake"><div class="container"><div class="menu-section-title"><div><p class="eyebrow">03 · FOR CELEBRATIONS</p><h2>Whole Cake</h2></div><p>Cakes prepared for celebrations, gatherings and special occasions.</p></div><div class="menu-empty"><h3>Whole Cake Collection</h3><p>Whole cake products will be added here once the final product photos, names and prices are confirmed.</p></div></div></section>
+<section class="menu-page-section" id="whole-cake"><div class="container"><div class="menu-section-title"><div><p class="eyebrow">03 · FOR CELEBRATIONS</p><h2>Whole Cake</h2></div><p>Cakes prepared for celebrations, gatherings and special occasions.</p></div><div class="menu-product-grid whole-cake-grid"><article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Dawn Treasure"><img src="images/dawn-treasure.jpeg" alt="Dawn Treasure" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>DAWN TREASURE</h3><p>Sesame, Mandarin Orange (Include Almond)</p>
+<div class="whole-cake-prices"><span><small>8.5"</small><strong>RM 200.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Mandarin Treasure"><img src="images/mandarin-treasure.jpeg" alt="Mandarin Treasure" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>MANDARIN TREASURE</h3><p>Mandarin Orange, Yogurt, Biscuit Base</p>
+<div class="whole-cake-prices"><span><small>8.5"</small><strong>RM 200.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Pink Treasure"><img src="images/pink-treasure-whole.jpeg" alt="Pink Treasure" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>PINK TREASURE</h3><p>Raspberry, Lychee (Include Almond)</p>
+<div class="whole-cake-prices"><span><small>8.5"</small><strong>RM 200.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Forest Treasure"><img src="images/forest-treasure-whole.png" alt="Forest Treasure" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>FOREST TREASURE</h3><p>Chocolate, Cherry (Include Rum (Alcohol), Almond)</p>
+<div class="whole-cake-prices"><span><small>8.5"</small><strong>RM 200.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Sea Salt Mille Crepe"><img src="images/sea-salt-mille-crepe-whole.jpeg" alt="Sea Salt Mille Crepe" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>SEA SALT MILLE CREPE</h3><p>Butterfly Blue Pea, Sea Salt</p>
+<div class="whole-cake-prices"><span><small>6.5"</small><strong>RM 130.00</strong></span><span><small>8.5"</small><strong>RM 170.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Original Mille Crepe"><img src="images/original-mille-crepe-whole.jpeg" alt="Original Mille Crepe" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>ORIGINAL MILLE CREPE</h3><p>Whipped Cream, Original Crepe</p>
+<div class="whole-cake-prices"><span><small>6.5"</small><strong>RM 130.00</strong></span><span><small>8.5"</small><strong>RM 170.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Caramel Cheese Mille Crepe"><img src="images/caramel-cheese-mille-crepe-whole.jpeg" alt="Caramel Cheese Mille Crepe" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>CARAMEL CHEESE MILLE CREPE</h3><p>Caramel Sauce, Cream Cheese (Include Almond)</p>
+<div class="whole-cake-prices"><span><small>6.5"</small><strong>RM 130.00</strong></span><span><small>8.5"</small><strong>RM 170.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Mango Mille Crepe"><img src="images/mango-mille-crepe-whole.jpeg" alt="Mango Mille Crepe" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>MANGO MILLE CREPE</h3><p>Mango Slice between the layer.</p>
+<div class="whole-cake-prices"><span><small>6.5"</small><strong>RM 140.00</strong></span><span><small>8.5"</small><strong>RM 180.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Strawberry Mille Crepe"><img src="images/strawberry-mille-crepe-whole.jpeg" alt="Strawberry Mille Crepe" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>STRAWBERRY MILLE CREPE</h3><p>Strawberry Slice between the layer.</p>
+<div class="whole-cake-prices"><span><small>6.5"</small><strong>RM 140.00</strong></span><span><small>8.5"</small><strong>RM 180.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Chocolate Mille Crepe"><img src="images/chocolate-mille-crepe-whole.jpeg" alt="Chocolate Mille Crepe" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>CHOCOLATE MILLE CREPE</h3><p>58% Dark Chocolate (Include Almond)</p>
+<div class="whole-cake-prices"><span><small>6.5"</small><strong>RM 140.00</strong></span><span><small>8.5"</small><strong>RM 180.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Earl Grey Lemon Mille Crepe"><img src="images/earl-grey-lemon-mille-crepe-whole.jpeg" alt="Earl Grey Lemon Mille Crepe" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>EARL GREY LEMON MILLE CREPE</h3><p>Earl Grey with Lemon Gannache</p>
+<div class="whole-cake-prices"><span><small>6.5"</small><strong>RM 140.00</strong></span><span><small>8.5"</small><strong>RM 180.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Cocoaffee Rocher Mille Crepe"><img src="images/cocoaffee-rocher-mille-crepe-whole.jpeg" alt="Cocoaffee Rocher Mille Crepe" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>COCOAFFEE ROCHER MILLE CREPE</h3><p>Chocolate, Coffee (Include Hazelnut)</p>
+<div class="whole-cake-prices"><span><small>6.5"</small><strong>RM 140.00</strong></span><span><small>8.5"</small><strong>RM 180.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Yuri Matcha Mille Crepe"><img src="images/yuri-matcha-mille-crepe-whole.jpeg" alt="Yuri Matcha Mille Crepe" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>YURI MATCHA MILLE CREPE</h3><p>Niko Neko Matcha</p>
+<div class="whole-cake-prices"><span><small>6.5"</small><strong>RM 140.00</strong></span><span><small>8.5"</small><strong>RM 180.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Houjicha Mille Crepe"><img src="images/houjicha-mille-crepe-whole.jpeg" alt="Houjicha Mille Crepe" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>HOUJICHA MILLE CREPE</h3><p>Niko Neko Houjicha</p>
+<div class="whole-cake-prices"><span><small>6.5"</small><strong>RM 140.00</strong></span><span><small>8.5"</small><strong>RM 180.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Osmanthus Genmaicha Mille Crepe"><img src="images/osmanthus-genmaicha-mille-crepe-whole.jpeg" alt="Osmanthus Genmaicha Mille Crepe" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>OSMANTHUS GENMAICHA MILLE CREPE</h3><p>Dried Osmanthus, Niko Neko Genmaicha</p>
+<div class="whole-cake-prices"><span><small>6.5"</small><strong>RM 140.00</strong></span><span><small>8.5"</small><strong>RM 180.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Pistachio Coco Mille Crepe"><img src="images/pistachio-coco-mille-crepe-whole.jpeg" alt="Pistachio Coco Mille Crepe" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>PISTACHIO COCO MILLE CREPE</h3><p>64% Chocolate Feuilletine Base (Include Pistachio Nut)</p>
+<div class="whole-cake-prices"><span><small>6.5"</small><strong>RM 180.00</strong></span><span><small>8.5"</small><strong>RM 220.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of 64% Royale Chocolate"><img src="images/64-royale-chocolate.jpeg" alt="64% Royale Chocolate" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>64% ROYALE CHOCOLATE</h3><p>64% Dark Chocolate (Include Walnut)</p>
+<div class="whole-cake-prices"><span><small>7"</small><strong>RM 155.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Tiramisu"><img src="images/tiramisu-7inch.jpeg" alt="Tiramisu" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>TIRAMISU</h3><p>Include Rum (Alcohol)</p>
+<div class="whole-cake-prices"><span><small>7"</small><strong>RM 155.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Sunlight Pistachio Mille Crepe"><img src="images/sunlight-pistachio-mille-crepe-whole.png" alt="Sunlight Pistachio Mille Crepe" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>SUNLIGHT PISTACHIO MILLE CREPE</h3><p>Pistachio, Chocolate, Orange, Nutty</p>
+<div class="whole-cake-prices"><span><small>6.5"</small><strong>RM 180.00</strong></span><span><small>8.5"</small><strong>RM 220.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Midnight Berries Mille Crepe"><img src="images/midnight-berries-mille-crepe-whole.jpeg" alt="Midnight Berries Mille Crepe" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>MIDNIGHT BERRIES MILLE CREPE</h3><p>Sesame, Raspberry, Nutty</p>
+<div class="whole-cake-prices"><span><small>6.5"</small><strong>RM 140.00</strong></span><span><small>8.5"</small><strong>RM 180.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+<article class="menu-product-card whole-cake-card">
+<div class="menu-product-image"><button class="product-image-button" type="button" aria-label="View full image of Fruity Mille Crepe"><img src="images/fruity-mille-crepe-whole.jpeg" alt="Fruity Mille Crepe" loading="lazy"></button></div>
+<div class="menu-product-info"><h3>FRUITY MILLE CREPE</h3><p>Mango, Strawberry, Kiwi between the layer. Topping decorated with Strawberry &amp; Blueberry.</p>
+<div class="whole-cake-prices"><span><small>6.5"</small><strong>RM 140.00</strong></span><span><small>8.5"</small><strong>RM 180.00</strong></span></div>
+<button class="whole-cake-details-button" type="button">Full details &amp; sizes</button>
+<div class="menu-product-bottom"><span class="menu-product-tag">WHOLE CAKE</span></div></div></article>
+</div></div></section>
 </main>
+<div class="whole-cake-details-modal" id="wholeCakeDetailsModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="wholeCakeDetailsTitle">
+<button class="whole-cake-details-close" type="button" aria-label="Close product details">&times;</button>
+<div class="whole-cake-details-panel">
+<p class="eyebrow">WHOLE CAKE</p>
+<h2 id="wholeCakeDetailsTitle"></h2>
+<p id="wholeCakeDetailsDescription"></p>
+<div id="wholeCakeDetailsPrices" class="whole-cake-details-prices"></div>
+</div>
+</div>
+<div class="product-lightbox" id="productLightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Product image viewer">
+<button class="product-lightbox-close" type="button" aria-label="Close image viewer">&times;</button>
+<img id="productLightboxImage" src="" alt="">
+<p id="productLightboxCaption"></p>
+</div>
+<script src="products-gallery.js"></script>
 <footer class="footer"><div class="container footer-inner"><span>© 2026 Champs Boulangerie Bakery</span><span>Freshly baked in Johor Bahru</span></div></footer>
+
+<!-- Contact choices dialog -->
+<div class="champs-contact-modal" id="champsContactModal" role="dialog" aria-modal="true" aria-labelledby="champsContactTitle" aria-hidden="true">
+  <div class="champs-contact-panel" role="document">
+    <button class="champs-contact-close" type="button" aria-label="Close contact options">&times;</button>
+    <p class="eyebrow">CONTACT CHAMPS</p>
+    <h2 id="champsContactTitle">Get in Touch</h2>
+    <p class="champs-contact-intro">Have a question? We'd love to hear from you!</p>
+    <a class="champs-contact-choice" href="https://m.me/Champs4722" target="_blank" rel="noopener noreferrer"><span class="champs-contact-symbol champs-fb" aria-hidden="true">f</span><span><strong>Facebook Messenger</strong><small>Chat with us on Messenger</small></span><span aria-hidden="true">↗</span></a>
+    <a class="champs-contact-choice" href="https://ig.me/m/champsboulangeriebakery" target="_blank" rel="noopener noreferrer"><span class="champs-contact-symbol champs-ig" aria-hidden="true">◎</span><span><strong>Instagram Direct</strong><small>Send us an Instagram DM</small></span><span aria-hidden="true">↗</span></a>
+  </div>
+</div>
+<script src="mobile-menu-products.js"></script>
+<script src="contact-popup.js"></script>
 </body>
 </html>
