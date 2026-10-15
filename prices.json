@@ -1,0 +1,1314 @@
+{
+  "product-001": {
+    "name": "ENERGY STICK",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 8.0
+      }
+    ]
+  },
+  "product-002": {
+    "name": "CHOCOLATE BERRY MELON",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.5
+      }
+    ]
+  },
+  "product-003": {
+    "name": "MATCHA RED BEAN DANISH",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 6.8
+      }
+    ]
+  },
+  "product-004": {
+    "name": "TUNA PAN",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.5
+      }
+    ]
+  },
+  "product-005": {
+    "name": "SAUSAGE ROLL",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.0
+      }
+    ]
+  },
+  "product-006": {
+    "name": "PIZZA MOZZARELLA",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.5
+      }
+    ]
+  },
+  "product-007": {
+    "name": "CHAMPS BUTTER CROISSANT",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 6.5
+      }
+    ]
+  },
+  "product-008": {
+    "name": "PAIN AU CHOCO",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 7.5
+      }
+    ]
+  },
+  "product-009": {
+    "name": "CHEEZY BREAD",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.5
+      }
+    ]
+  },
+  "product-010": {
+    "name": "MELON PAN",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 4.5
+      }
+    ]
+  },
+  "product-011": {
+    "name": "PIZZA SAUSAGE",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 6.5
+      }
+    ]
+  },
+  "product-012": {
+    "name": "SAUSAGE CROISSANT",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 7.5
+      }
+    ]
+  },
+  "product-013": {
+    "name": "MATCHA RED BEAN MOCHI",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 6.5
+      }
+    ]
+  },
+  "product-014": {
+    "name": "CHOCOLATE X HOUJICHA",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 6.0
+      }
+    ]
+  },
+  "product-015": {
+    "name": "HAM & ONION ROLL",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.0
+      }
+    ]
+  },
+  "product-016": {
+    "name": "CHICKEN FLOSS WITH HAM",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.0
+      }
+    ]
+  },
+  "product-017": {
+    "name": "MINI CROISSANT",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "1pcs",
+        "amount": 2.5
+      },
+      {
+        "label": "3pcs",
+        "amount": 7.0
+      },
+      {
+        "label": "5pcs",
+        "amount": 10.5
+      }
+    ]
+  },
+  "product-018": {
+    "name": "MINI PAIN AU CHOCO",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "1pcs",
+        "amount": 2.6
+      },
+      {
+        "label": "3pcs",
+        "amount": 7.5
+      },
+      {
+        "label": "5pcs",
+        "amount": 11.5
+      }
+    ]
+  },
+  "product-019": {
+    "name": "PISTACHIO ROLL",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 7.5
+      }
+    ]
+  },
+  "product-020": {
+    "name": "RASPBERRY DANISH",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 6.8
+      }
+    ]
+  },
+  "product-021": {
+    "name": "LEMON CUSTARD DANISH",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 6.8
+      }
+    ]
+  },
+  "product-022": {
+    "name": "MUAR OTAK PUFF",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 7.8
+      }
+    ]
+  },
+  "product-023": {
+    "name": "SEA SALT ROLL",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 4.5
+      }
+    ]
+  },
+  "product-024": {
+    "name": "CHOCOLATE SEA SALT ROLL",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.5
+      }
+    ]
+  },
+  "product-025": {
+    "name": "SESAME SEA SALT ROLL",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.5
+      }
+    ]
+  },
+  "product-026": {
+    "name": "HEALTHY SESAME MULTI GRAIN",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 6.5
+      }
+    ]
+  },
+  "product-027": {
+    "name": "RAISIN WALNUT",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.5
+      }
+    ]
+  },
+  "product-028": {
+    "name": "WHOLEMEAL CRANBERRY WALNUT",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.5
+      }
+    ]
+  },
+  "product-029": {
+    "name": "AN BUTTER",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.5
+      }
+    ]
+  },
+  "product-030": {
+    "name": "PRETZEL",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.5
+      }
+    ]
+  },
+  "product-031": {
+    "name": "PURPLE RICE CRANBERRY",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.5
+      }
+    ]
+  },
+  "product-032": {
+    "name": "CRANBERRY CREAM CHEESE",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.5
+      }
+    ]
+  },
+  "product-033": {
+    "name": "MENTAIKO SEA SALT ROLL",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 6.0
+      }
+    ]
+  },
+  "product-034": {
+    "name": "EARL GREY MOCHI SEA SALT ROLL",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 6.0
+      }
+    ]
+  },
+  "product-035": {
+    "name": "PAIN AU RAISIN",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 7.0
+      }
+    ]
+  },
+  "product-036": {
+    "name": "BAGUETTE",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 6.5
+      }
+    ]
+  },
+  "product-037": {
+    "name": "GARLIC FRENCH",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.0
+      }
+    ]
+  },
+  "product-038": {
+    "name": "MENTAIKO FRENCH",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 6.0
+      }
+    ]
+  },
+  "product-039": {
+    "name": "MINI FRENCH",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 3.5
+      }
+    ]
+  },
+  "product-040": {
+    "name": "KOUIGN AMANN",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.5
+      }
+    ]
+  },
+  "product-041": {
+    "name": "ONION TOMATO TARTINE",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 5.5
+      }
+    ]
+  },
+  "product-042": {
+    "name": "SAUSAGE GARLIC TARTINE",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 6.0
+      }
+    ]
+  },
+  "product-043": {
+    "name": "MUSHROOM FOCACCIA",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 7.8
+      }
+    ]
+  },
+  "product-044": {
+    "name": "MUAR OTAK FOCACCIA",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 6.8
+      }
+    ]
+  },
+  "product-045": {
+    "name": "BUTTER ROLL",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 6.5
+      }
+    ]
+  },
+  "product-046": {
+    "name": "MINI RAISIN",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 7.5
+      }
+    ]
+  },
+  "product-047": {
+    "name": "MINI AN PAN",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 7.5
+      }
+    ]
+  },
+  "product-048": {
+    "name": "MINI DARK CHOCOLATE BUN",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 7.0
+      }
+    ]
+  },
+  "product-049": {
+    "name": "MINI CHEESE BUN",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 7.0
+      }
+    ]
+  },
+  "product-050": {
+    "name": "WHOLEMEAL LOAF BREAD",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 8.0
+      }
+    ]
+  },
+  "product-051": {
+    "name": "HEALTHY LOAF BREAD",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 7.5
+      }
+    ]
+  },
+  "product-052": {
+    "name": "SESAME LOAF BREAD",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 9.5
+      }
+    ]
+  },
+  "product-053": {
+    "name": "MOUNTAIN JAPANESE MILK LOAF",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 7.5
+      }
+    ]
+  },
+  "product-054": {
+    "name": "SQUARE JAPANESE MILK LOAF",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 9.5
+      }
+    ]
+  },
+  "product-055": {
+    "name": "CHOCOLATE LOAF",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 12.5
+      }
+    ]
+  },
+  "product-056": {
+    "name": "FRUIT WITH RED WINE FRENCH",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 12.5
+      }
+    ]
+  },
+  "product-057": {
+    "name": "GERMAN RYE BREAD",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 6.5
+      }
+    ]
+  },
+  "product-058": {
+    "name": "GERMAN RYE BREAD WITH RAISIN",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 13.5
+      }
+    ]
+  },
+  "product-059": {
+    "name": "HEALTHY OAT CHIASEED CRANBERRY",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 8.5
+      }
+    ]
+  },
+  "product-060": {
+    "name": "FIG & RAISIN WALNUT",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 9.5
+      }
+    ]
+  },
+  "product-061": {
+    "name": "FLUFFY CHEEZY BREAD",
+    "category": "Bread",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 8.0
+      }
+    ]
+  },
+  "product-062": {
+    "name": "PINK TREASURE",
+    "category": "Slice Cake",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 19.9
+      }
+    ]
+  },
+  "product-063": {
+    "name": "MANDARIN TREASURE",
+    "category": "Slice Cake",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 19.9
+      }
+    ]
+  },
+  "product-064": {
+    "name": "SUNLIGHT PISTACHIO MILLE CREPE",
+    "category": "Slice Cake",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 23.9
+      }
+    ]
+  },
+  "product-065": {
+    "name": "MIDNIGHT BERRIES MILLE CREPE",
+    "category": "Slice Cake",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 18.9
+      }
+    ]
+  },
+  "product-066": {
+    "name": "PISTACHIO COCO MILLE CREPE",
+    "category": "Slice Cake",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 23.9
+      }
+    ]
+  },
+  "product-067": {
+    "name": "SEA SALT MILLE CREPE",
+    "category": "Slice Cake",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 18.9
+      }
+    ]
+  },
+  "product-068": {
+    "name": "CHOCOLATE MILLE CREPE",
+    "category": "Slice Cake",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 18.9
+      }
+    ]
+  },
+  "product-069": {
+    "name": "YURI MATCHA MILLE CREPE",
+    "category": "Slice Cake",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 18.9
+      }
+    ]
+  },
+  "product-070": {
+    "name": "HOUJICHA MILLE CREPE",
+    "category": "Slice Cake",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 18.9
+      }
+    ]
+  },
+  "product-071": {
+    "name": "OSMANTHUS GENMAICHA MILLE CREPE",
+    "category": "Slice Cake",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 18.9
+      }
+    ]
+  },
+  "product-072": {
+    "name": "EARL GREY LEMON MILLE CREPE",
+    "category": "Slice Cake",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 18.9
+      }
+    ]
+  },
+  "product-073": {
+    "name": "ORIGINAL MILLE CREPE",
+    "category": "Slice Cake",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 18.9
+      }
+    ]
+  },
+  "product-074": {
+    "name": "TIRAMISU",
+    "category": "Slice Cake",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 19.9
+      }
+    ]
+  },
+  "product-075": {
+    "name": "DAWN TREASURE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "8.5\"",
+        "amount": 200.0
+      }
+    ]
+  },
+  "product-076": {
+    "name": "MANDARIN TREASURE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "8.5\"",
+        "amount": 200.0
+      }
+    ]
+  },
+  "product-077": {
+    "name": "PINK TREASURE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "8.5\"",
+        "amount": 200.0
+      }
+    ]
+  },
+  "product-078": {
+    "name": "FOREST TREASURE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "8.5\"",
+        "amount": 200.0
+      }
+    ]
+  },
+  "product-079": {
+    "name": "SEA SALT MILLE CREPE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "6.5\"",
+        "amount": 130.0
+      },
+      {
+        "label": "8.5\"",
+        "amount": 170.0
+      }
+    ]
+  },
+  "product-080": {
+    "name": "ORIGINAL MILLE CREPE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "6.5\"",
+        "amount": 130.0
+      },
+      {
+        "label": "8.5\"",
+        "amount": 170.0
+      }
+    ]
+  },
+  "product-081": {
+    "name": "CARAMEL CHEESE MILLE CREPE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "6.5\"",
+        "amount": 130.0
+      },
+      {
+        "label": "8.5\"",
+        "amount": 170.0
+      }
+    ]
+  },
+  "product-082": {
+    "name": "MANGO MILLE CREPE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "6.5\"",
+        "amount": 140.0
+      },
+      {
+        "label": "8.5\"",
+        "amount": 180.0
+      }
+    ]
+  },
+  "product-083": {
+    "name": "STRAWBERRY MILLE CREPE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "6.5\"",
+        "amount": 140.0
+      },
+      {
+        "label": "8.5\"",
+        "amount": 180.0
+      }
+    ]
+  },
+  "product-084": {
+    "name": "CHOCOLATE MILLE CREPE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "6.5\"",
+        "amount": 140.0
+      },
+      {
+        "label": "8.5\"",
+        "amount": 180.0
+      }
+    ]
+  },
+  "product-085": {
+    "name": "EARL GREY LEMON MILLE CREPE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "6.5\"",
+        "amount": 140.0
+      },
+      {
+        "label": "8.5\"",
+        "amount": 180.0
+      }
+    ]
+  },
+  "product-086": {
+    "name": "COCOAFFEE ROCHER MILLE CREPE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "6.5\"",
+        "amount": 140.0
+      },
+      {
+        "label": "8.5\"",
+        "amount": 180.0
+      }
+    ]
+  },
+  "product-087": {
+    "name": "YURI MATCHA MILLE CREPE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "6.5\"",
+        "amount": 140.0
+      },
+      {
+        "label": "8.5\"",
+        "amount": 180.0
+      }
+    ]
+  },
+  "product-088": {
+    "name": "HOUJICHA MILLE CREPE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "6.5\"",
+        "amount": 140.0
+      },
+      {
+        "label": "8.5\"",
+        "amount": 180.0
+      }
+    ]
+  },
+  "product-089": {
+    "name": "OSMANTHUS GENMAICHA MILLE CREPE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "6.5\"",
+        "amount": 140.0
+      },
+      {
+        "label": "8.5\"",
+        "amount": 180.0
+      }
+    ]
+  },
+  "product-090": {
+    "name": "PISTACHIO COCO MILLE CREPE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "6.5\"",
+        "amount": 180.0
+      },
+      {
+        "label": "8.5\"",
+        "amount": 220.0
+      }
+    ]
+  },
+  "product-091": {
+    "name": "64% ROYALE CHOCOLATE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "7\"",
+        "amount": 155.0
+      }
+    ]
+  },
+  "product-092": {
+    "name": "TIRAMISU",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "7\"",
+        "amount": 155.0
+      }
+    ]
+  },
+  "product-093": {
+    "name": "SUNLIGHT PISTACHIO MILLE CREPE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "6.5\"",
+        "amount": 180.0
+      },
+      {
+        "label": "8.5\"",
+        "amount": 220.0
+      }
+    ]
+  },
+  "product-094": {
+    "name": "MIDNIGHT BERRIES MILLE CREPE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "6.5\"",
+        "amount": 140.0
+      },
+      {
+        "label": "8.5\"",
+        "amount": 180.0
+      }
+    ]
+  },
+  "product-095": {
+    "name": "FRUITY MILLE CREPE",
+    "category": "Whole Cake",
+    "prices": [
+      {
+        "label": "6.5\"",
+        "amount": 140.0
+      },
+      {
+        "label": "8.5\"",
+        "amount": 180.0
+      }
+    ]
+  },
+  "product-096": {
+    "name": "Earl Grey Tea",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Hot",
+        "amount": 10.0
+      }
+    ]
+  },
+  "product-097": {
+    "name": "Peach Fruit Tea",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Hot",
+        "amount": 10.0
+      }
+    ]
+  },
+  "product-098": {
+    "name": "Genmaicha Tea",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Hot",
+        "amount": 10.0
+      }
+    ]
+  },
+  "product-099": {
+    "name": "Lemongrass Ginger Tea",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Hot",
+        "amount": 10.0
+      }
+    ]
+  },
+  "product-100": {
+    "name": "Pink Rose Tea",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Hot",
+        "amount": 10.0
+      }
+    ]
+  },
+  "product-101": {
+    "name": "Black",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Hot",
+        "amount": 10.0
+      },
+      {
+        "label": "Cold",
+        "amount": 11.0
+      }
+    ]
+  },
+  "product-102": {
+    "name": "White",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Hot",
+        "amount": 11.0
+      },
+      {
+        "label": "Cold",
+        "amount": 12.0
+      }
+    ]
+  },
+  "product-103": {
+    "name": "Mocha",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Hot",
+        "amount": 14.0
+      },
+      {
+        "label": "Cold",
+        "amount": 15.0
+      }
+    ]
+  },
+  "product-104": {
+    "name": "Dirty Latte",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Cold",
+        "amount": 13.0
+      }
+    ]
+  },
+  "product-105": {
+    "name": "Salted Caramel Latte",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Hot",
+        "amount": 13.0
+      },
+      {
+        "label": "Cold",
+        "amount": 14.0
+      }
+    ]
+  },
+  "product-106": {
+    "name": "Strawberry Latte",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Cold",
+        "amount": 14.0
+      }
+    ]
+  },
+  "product-107": {
+    "name": "Rose Latte",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Hot",
+        "amount": 13.0
+      },
+      {
+        "label": "Cold",
+        "amount": 14.0
+      }
+    ]
+  },
+  "product-108": {
+    "name": "Orange Tonic Americano",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Cold",
+        "amount": 14.0
+      }
+    ]
+  },
+  "product-109": {
+    "name": "Grapefruit Yuzu Americano",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Cold",
+        "amount": 14.0
+      }
+    ]
+  },
+  "product-110": {
+    "name": "Grapefruit Watermelon",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Cold",
+        "amount": 14.0
+      }
+    ]
+  },
+  "product-111": {
+    "name": "Passionfruit Orange",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Cold",
+        "amount": 14.0
+      }
+    ]
+  },
+  "product-112": {
+    "name": "Rose Watermelon",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Cold",
+        "amount": 14.0
+      }
+    ]
+  },
+  "product-113": {
+    "name": "Babyccino",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Hot",
+        "amount": 7.0
+      },
+      {
+        "label": "Cold",
+        "amount": 8.0
+      }
+    ]
+  },
+  "product-114": {
+    "name": "Chocolate",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Hot",
+        "amount": 12.0
+      },
+      {
+        "label": "Cold",
+        "amount": 13.0
+      }
+    ]
+  },
+  "product-115": {
+    "name": "Matcha Latte",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Hot",
+        "amount": 12.0
+      },
+      {
+        "label": "Cold",
+        "amount": 13.0
+      }
+    ]
+  },
+  "product-116": {
+    "name": "Houjicha Latte",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Hot",
+        "amount": 12.0
+      },
+      {
+        "label": "Cold",
+        "amount": 13.0
+      }
+    ]
+  },
+  "product-117": {
+    "name": "Matcha Strawberry",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Cold",
+        "amount": 15.0
+      }
+    ]
+  },
+  "product-118": {
+    "name": "100 Plus",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Cold",
+        "amount": 5.0
+      }
+    ]
+  },
+  "product-119": {
+    "name": "Coke",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Cold",
+        "amount": 5.0
+      }
+    ]
+  },
+  "product-120": {
+    "name": "Sparkling Honey",
+    "category": "Drinks",
+    "prices": [
+      {
+        "label": "Cold",
+        "amount": 7.0
+      }
+    ]
+  }
+}

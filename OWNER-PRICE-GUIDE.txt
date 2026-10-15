@@ -1,0 +1,16 @@
+CHAMPS — OWNER PRICE UPDATE GUIDE
+
+1. Open the website folder in VS Code.
+2. Open prices.json. Press Ctrl+F and search for the product name (e.g. ENERGY STICK).
+3. Change ONLY the number after "amount": (e.g. 7.0 to 8.0). Do not remove commas, quotes, or brackets.
+4. Save with Ctrl+S.
+5. In VS Code Source Control, review the changed file, enter message "Update prices", click Commit, then Sync Changes / Push.
+6. Wait for GitHub Pages deployment and refresh the public website.
+
+IMPORTANT:
+- This ZIP is a prepared copy; your GitHub repository is NOT automatically updated.
+- To preview locally, use VS Code Live Server (do not double-click products.html from disk, because fetch needs HTTP).
+- If prices.json has invalid JSON, the site keeps its original HTML prices.
+- Whole cake sizes and Hot/Cold drinks each have separate amount entries.
+- Product IDs and labels should not be edited.
+- Keep a backup before making changes.
