@@ -2191,3 +2191,17 @@ em {
 .drink-variant-images { display:flex; flex-wrap:wrap; gap:8px; margin:8px 0; }
 .drink-variant-button { border:1px solid #B42D23; border-radius:16px; padding:4px 10px; background:transparent; color:#7F201A; font:inherit; font-size:12px; cursor:pointer; }
 .drink-variant-button:hover { background:#B42D23; color:white; }
+
+/* Homepage heritage brand name */
+.champs-heritage-kicker {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+@media (max-width: 560px) {
+    .champs-heritage-kicker {
+        font-size: 16px;
+    }
+}

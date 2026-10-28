@@ -24,6 +24,43 @@
           rel="stylesheet">
 
 
+
+    <!-- Homepage heritage headline styling; scoped to avoid affecting other pages -->
+    <style>
+        .hero-copy .champs-heritage-kicker {
+            color: #a34a3e;
+            letter-spacing: .16em;
+            font-weight: 700;
+        }
+        .hero-copy .champs-heritage-heading {
+            color: #7f201a;
+            line-height: 1.12;
+            text-wrap: balance;
+            margin-bottom: .35em;
+        }
+        .hero-copy .champs-heritage-heading em { color: inherit; }
+        .hero-copy .champs-heritage-established {
+            color: #7f201a;
+            font-weight: 700;
+            letter-spacing: .19em;
+            font-size: .9rem;
+            margin: 0 0 1rem;
+        }
+        .hero-copy .champs-heritage-rule {
+            width: 96px;
+            height: 1px;
+            background: #d7b7a3;
+            margin: 0 0 1rem;
+        }
+        .hero-copy .champs-heritage-description {
+            color: #65554c;
+            margin-top: 0;
+        }
+        @media (max-width: 767px) {
+            .hero-copy .champs-heritage-heading { font-size: clamp(2.1rem, 9vw, 3.5rem); }
+        }
+    </style>
+
     <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
 
@@ -146,28 +183,14 @@
 
                 <div class="hero-copy">
 
-                    <p class="eyebrow">
-                        WELCOME TO CHAMPS
-                    </p>
+                    <!-- Refined brand statement: established, warm and timeless -->
+                    <p class="eyebrow champs-heritage-kicker">CHAMPS BOULANGERIE</p>
 
+                    <h1 class="champs-heritage-heading">Crafted with Passion</h1>
 
-                    <h1>
-
-                        A little joy,
-                        <br>
-
-                        <em>fresh from the oven.</em>
-
-                    </h1>
-
-
-                    <p class="hero-description">
-
-                        Explore our handcrafted croffles,
-                        pastries, breads and cakes —
-                        made to brighten ordinary moments.
-
-                    </p>
+                    <p class="champs-heritage-established">EST. 2019</p>
+                    <div class="champs-heritage-rule" aria-hidden="true"></div>
+                    <p class="hero-description champs-heritage-description">Freshly baked, thoughtfully made.</p>
 
 
                     <!-- Hero Buttons -->
