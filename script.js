@@ -160,5 +160,4 @@ mobileNav.querySelectorAll("a").forEach((link) => {
 // 9. AUTOMATIC COPYRIGHT YEAR
 // ==========================================
 
-document.getElementById("year").textContent =
-    new Date().getFullYear();
+document.getElementById("year").textContent = "2019";
