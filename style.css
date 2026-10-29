@@ -2205,3 +2205,16 @@ em {
         font-size: 16px;
     }
 }
+/* Visit Champs: soft storefront photograph under readable content */
+.visit { position: relative; isolation: isolate; background: #efe1d0; }
+.visit::before {
+  content: ""; position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(rgba(248,241,231,.84),rgba(248,241,231,.88)), url("images/champs-home-01.jpeg") center 5% / cover no-repeat;
+}
+.visit .visit-card { background: rgba(255,253,249,.94); backdrop-filter: blur(3px); }
+/* Six categories: three across on desktop; existing mobile rules remain in effect */
+@media (min-width: 561px) and (max-width: 900px) { .menu-category-grid { grid-template-columns: repeat(2,minmax(0,1fr)); max-width: none; } }
+/* Display complete front/back T-shirt composite without cropping */
+#merchandise .menu-product-image img { object-fit: contain; background: #fff; }
+#merchandise .whole-cake-prices { gap: 12px; }
+#merchandise .whole-cake-prices span { padding: 6px 10px; background: var(--cream); }

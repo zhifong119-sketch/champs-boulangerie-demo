@@ -1310,5 +1310,59 @@
         "amount": 7.0
       }
     ]
+  },
+  "product-121": {
+    "name": "Berries Croffle",
+    "category": "Croffle Series",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 18.9
+      }
+    ]
+  },
+  "product-122": {
+    "name": "An Butter Croffle",
+    "category": "Croffle Series",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 18.9
+      }
+    ]
+  },
+  "product-123": {
+    "name": "Chicken Floss Croffle",
+    "category": "Croffle Series",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 18.9
+      }
+    ]
+  },
+  "product-124": {
+    "name": "Champs Bag",
+    "category": "Merchandise",
+    "prices": [
+      {
+        "label": "Standard",
+        "amount": 29.9
+      }
+    ]
+  },
+  "product-125": {
+    "name": "Champs T-shirt",
+    "category": "Merchandise",
+    "prices": [
+      {
+        "label": "Adult (S, M, L, XL)",
+        "amount": 69.0
+      },
+      {
+        "label": "Kids",
+        "amount": 59.0
+      }
+    ]
   }
 }

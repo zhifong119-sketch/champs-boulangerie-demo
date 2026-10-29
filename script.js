@@ -3,56 +3,14 @@
 // ==========================================
 
 const products = [
-    {
-        name: "AN BUTTER CROFFLE",
-        category: "CROFFLES",
-        image: "images/an-butter-croffle.jpg"
-    },
-    {
-        name: "BERRIES CROFFLE",
-        category: "CROFFLES",
-        image: "images/berries-croffle.jpg"
-    },
-    {
-        name: "CHICKEN FLOSS CROFFLE",
-        category: "CROFFLES",
-        image: "images/chicken-floss-croffle.jpg"
-    },
-    {
-        name: "ENERGY STICK",
-        category: "PASTRIES",
-        image: "images/energy-stick.jpg"
-    },
-    {
-        name: "LEMON CUSTARD DANISH",
-        category: "PASTRIES",
-        image: "images/lemon-custard-danish.jpg"
-    },
-    {
-        name: "MATCHA RED BEAN DANISH",
-        category: "PASTRIES",
-        image: "images/matcha-red-bean-danish.jpg"
-    },
-    {
-        name: "MIDNIGHT BERRIES MILLE CREPE",
-        category: "CAKES",
-        image: "images/midnight-berries-mille-crepe.jpg"
-    },
-    {
-        name: "SEA SALT MILLE CREPE",
-        category: "CAKES",
-        image: "images/sea-salt-mille-crepe.jpg"
-    },
-    {
-        name: "SUNLIGHT PISTACHIO MILLE CREPE",
-        category: "CAKES",
-        image: "images/sunlight-pistachio-mille-crepe.jpg"
-    },
-    {
-        name: "TIRAMISU",
-        category: "SWEETS",
-        image: "images/tiramisu.jpg"
-    }
+    { name: "OUR BAKERY", category: "CHAMPS BOULANGERIE", image: "images/champs-home-01.jpeg" },
+    { name: "A WARM WELCOME", category: "CHAMPS BOULANGERIE", image: "images/champs-home-02.jpeg" },
+    { name: "INSIDE CHAMPS", category: "BAKERY & CAF\u00c9", image: "images/champs-home-03.jpeg" },
+    { name: "A PLACE TO UNWIND", category: "CHAMPS BOULANGERIE", image: "images/champs-home-04.jpeg" },
+    { name: "COMFORTABLE MOMENTS", category: "CHAMPS BOULANGERIE", image: "images/champs-home-05.jpeg" },
+    { name: "MADE FOR GATHERING", category: "CHAMPS BOULANGERIE", image: "images/champs-home-06.jpeg" },
+    { name: "FRESHLY BAKED", category: "ARTISAN BREAD", image: "images/champs-home-07.jpeg" },
+    { name: "SWEET MOMENTS", category: "BAKERY & CAF\u00c9", image: "images/champs-home-08.jpeg" }
 ];
 
 
@@ -74,19 +32,12 @@ let timer;
 // ==========================================
 
 // Default position for all products
-const defaultImagePosition = "50% 35%";
+const defaultImagePosition = "50% 50%";
 
 // Individual position for Tiramisu
 // First value = horizontal position
 // Second value = vertical position
-const imagePositions = {
-    "TIRAMISU": "50% 70%",
-    "SEA SALT MILLE CREPE": "50% 120%",
-    "ENERGY STICK": "60% 60%",
-    "LEMON CUSTARD DANISH": "50% 50%",
-    "MATCHA RED BEAN DANISH": "50% 60%",
-    "MIDNIGHT BERRIES MILLE CREPE": "50% 60%"
-};
+const imagePositions = {};
 
 
 // ==========================================
